@@ -18,7 +18,6 @@ public class jetDetailedProductPage {
 		WebElement mapObject = wait.until(
 			    ExpectedConditions.visibilityOfElementLocated(addToCartButton));
 	
-		//WebElement mapObject= driver.findElement(addToCartButton);
 		Actions builder = new Actions(driver);
 		builder.click(mapObject).build().perform();
 	}
